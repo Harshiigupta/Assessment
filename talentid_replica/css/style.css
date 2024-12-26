@@ -1,0 +1,240 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #0c0c0c;
+    background-color: #e29c9c;
+    margin: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #501010;
+    color: #5d5a79;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #9e95d2;
+    border-bottom: 1px solid #b50d0d;
+}
+
+.navbar .logo img {
+    
+    width: 450px;        /* Set the desired width for the logo */
+    height: 100px;       /* Set the desired height for the logo */
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+    margin-left: 10px;   /* Optional: add left margin for positioning */
+    margin-right: 10px;  /* Optional: add right margin for spacing */
+       
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .auth-buttons .btn {
+    margin-left: 10px;
+}
+
+.navbar .login {
+    background-color: transparent;
+    border: 1px solid #7e517c;
+    color: #391042;
+}
+
+.navbar .signup {
+    background-color: #7e517c;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background: url("D://Assessment//talentid_replica//assests//images//Screenshot 2024-12-26 195203.png") no-repeat center center/cover;
+    color: #0f0e0e;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    background-color: #bbb8be;
+    color: #0a0909;
+   
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    background-color: #925ebb;
+    color: #ffffff;
+}
+
+.hero .get-started {
+    background-color: #825a79;
+    color: #fff;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 20px;
+    background-color: #f9b6b6;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background-color: #fff;
+    border: 1px solid #4d09f9;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.feature-item img {
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 60px 20px;
+    background-color: #f1c9c9;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    background-color: #efdcf3;
+    border: 1px solid #4d2b4a;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.pricing-plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.pricing-plan .price {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-plan .select-plan {
+    background-color: #815088;
+    color: #fff;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #201f1f;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #825a8a;
+    color: #f5f5f5;
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #9a9898;
+    color: #fff;
+    margin-top: 20px;
+}
